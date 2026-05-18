@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="max-w-full px-6 sm:px-8 lg:px-12">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center gap-3">
             <svg
               width="82"
               height="19"
@@ -58,6 +58,7 @@ export default function Navbar() {
                 fill="currentColor"
               />
             </svg>
+            <span className="text-sm text-gray-400">#file:logo.jpg</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -103,16 +104,22 @@ export default function Navbar() {
             </div>
 
             <Link
-              href="/portfolio"
-              className="text-white hover:text-lime-400 transition-colors"
-            >
-              Portfolio
-            </Link>
-            <Link
               href="/about"
               className="text-white hover:text-lime-400 transition-colors"
             >
-              À propos
+              About
+            </Link>
+            <Link
+              href="/portfolio"
+              className="text-white hover:text-lime-400 transition-colors"
+            >
+              Portfolios
+            </Link>
+            <Link
+              href="/pricing"
+              className="text-white hover:text-lime-400 transition-colors"
+            >
+              Pricing
             </Link>
             <Link
               href="/blog"
@@ -181,13 +188,19 @@ export default function Navbar() {
               href="/portfolio"
               className="block px-4 py-2 text-white hover:text-lime-400 transition-colors"
             >
-              Portfolio
+              Portfolios
             </Link>
             <Link
               href="/about"
               className="block px-4 py-2 text-white hover:text-lime-400 transition-colors"
             >
-              À propos
+              About
+            </Link>
+            <Link
+              href="/pricing"
+              className="block px-4 py-2 text-white hover:text-lime-400 transition-colors"
+            >
+              Pricing
             </Link>
             <Link
               href="/blog"

@@ -44,21 +44,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <svg
-              width="82"
-              height="19"
-              viewBox="0 0 82 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-auto"
-            >
-              <title>mprez logo</title>
-              <path
-                d="M37.2024 4.25023C36.8972 3.3702 36.4621 2.62054 35.8972 1.99474C35.3388 1.36894 34.6634 0.880032 33.8842 0.528019C33.105 0.176006 32.2349 0 31.2738 0C30.1829 0 29.2154 0.286825 28.3647 0.866995C27.5141 1.44716 26.8518 2.21638 26.3777 3.18767V0.352013H23.9297V18.8783H26.5141C26.4622 18.3242 26.4232 17.7832 26.4037 17.2356C26.3842 16.6945 26.3777 16.1535 26.3777 15.6189V11.2057C26.8518 12.1575 27.5076 12.9202 28.3647 13.4873C29.2154 14.0544 30.1764 14.3413 31.2479 14.3413C32.1894 14.3413 33.0531 14.1653 33.8453 13.8132C34.631 13.4612 35.3063 12.9723 35.8712 12.3465C36.4362 11.7207 36.8712 10.9646 37.1894 10.078C37.5076 9.19145 37.6634 8.22015 37.6634 7.17063C37.6634 6.12111 37.5076 5.13026 37.2024 4.25023Z"
-                fill="currentColor"
-              />
-            </svg>
-            <span className="text-sm text-gray-400">#file:logo.jpg</span>
+            <img
+              src="/logo.jpg"
+              alt="logo"
+              width={40}
+              height={40}
+              className="rounded-full object-cover"
+            />
           </Link>
 
           {/* Desktop Menu */}

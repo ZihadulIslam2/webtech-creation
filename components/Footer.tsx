@@ -2,24 +2,22 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-black border-t border-white/10 relative">
+    <footer className="bg-[#020d0e] border-t border-white/10 relative">
       {/* Background effect */}
-      <div className="absolute inset-0 bg-gradient-to-b from-lime-500/5 via-transparent to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#00df89]/5 via-transparent to-transparent pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12 md:mb-16">
           {/* Brand */}
           <div>
-            <h3 className="text-white font-black text-xl mb-4">mprez</h3>
+            <h3 className="text-white font-black text-2xl mb-4">Webtech</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              L'agence PowerPoint de référence pour les marques inspirantes.
+              Subscription based website design and maintenance packages providing everything you need to launch and scale.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com/agencemprez"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-lime-400 transition-colors hover:scale-110"
+                href="#"
+                className="text-gray-400 hover:text-[#00df89] transition-colors hover:scale-110"
               >
                 <svg
                   className="w-6 h-6"
@@ -30,10 +28,8 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com/mprezagence"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-lime-400 transition-colors hover:scale-110"
+                href="#"
+                className="text-gray-400 hover:text-[#00df89] transition-colors hover:scale-110"
               >
                 <svg
                   className="w-6 h-6"
@@ -44,10 +40,8 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/mprez"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-lime-400 transition-colors hover:scale-110"
+                href="#"
+                className="text-gray-400 hover:text-[#00df89] transition-colors hover:scale-110"
               >
                 <svg
                   className="w-6 h-6"
@@ -66,26 +60,26 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/presentation-powerpoint"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#services"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  Design de présentation
+                  Startup Website
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/services-complementaires/conseil-editorial"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#services"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  Conseil éditorial
+                  Business Website
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/services-complementaires/formation-powerpoint"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#services"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  Formations
+                  E-Commerce Website
                 </Link>
               </li>
             </ul>
@@ -93,30 +87,30 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-white font-bold mb-6">Entreprise</h4>
+            <h4 className="text-white font-bold mb-6">Company</h4>
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/about"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#about"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  À propos
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/portfolio"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#portfolios"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
                   Portfolio
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/blog"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
+                  href="#pricing"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  Blog
+                  Pricing
                 </Link>
               </li>
             </ul>
@@ -128,26 +122,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+33189623176"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm font-semibold"
+                  href="mailto:hello@Webtech.com"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm font-semibold"
                 >
-                  +33 1 89 62 31 76
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:hello@mprez.fr"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm"
-                >
-                  hello@mprez.fr
+                  hello@Webtech.com
                 </a>
               </li>
               <li>
                 <Link
-                  href="/contact"
-                  className="text-gray-400 hover:text-lime-400 transition-colors text-sm font-semibold"
+                  href="#contact"
+                  className="text-gray-400 hover:text-[#00df89] transition-colors text-sm"
                 >
-                  Nous contacter
+                  Start Consultation
                 </Link>
               </li>
             </ul>
@@ -159,26 +145,26 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm">
-            © 2024 mprez. Tous droits réservés.
+            &copy; 2026 Webtech. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
-              href="/legal"
+              href="#legal"
               className="text-gray-500 hover:text-gray-400 text-sm transition-colors"
             >
-              Mentions légales
+              Legal Mentions
             </Link>
             <Link
-              href="/privacy"
+              href="#privacy"
               className="text-gray-500 hover:text-gray-400 text-sm transition-colors"
             >
-              Politique de confidentialité
+              Privacy Policy
             </Link>
             <Link
-              href="/cookies"
+              href="#cookies"
               className="text-gray-500 hover:text-gray-400 text-sm transition-colors"
             >
-              Cookies
+              Cookies Policy
             </Link>
           </div>
         </div>

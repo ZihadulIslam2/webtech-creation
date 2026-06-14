@@ -2,29 +2,28 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Agence PowerPoint : +2500 clients satisfaits | mprez',
+  title: 'Subscription Based Website Design & Maintenance | Webtech',
   description:
-    "L'agence PowerPoint de référence, avec +10000 présentations à son actif. Nous designons vos slides, vous marquez les esprits.",
-  keywords: 'PowerPoint, présentation, agence design, slides créatives, Paris',
+    "Don't Just Make a Website, Make a Fortune. Our affordable monthly website packages provide everything you need to launch and maintain a professional online presence.",
+  keywords: 'subscription website design, website maintenance, Webtech, custom web design, business website, ecommerce website',
   openGraph: {
-    title: 'Agence PowerPoint : +2500 clients satisfaits | mprez',
+    title: 'Subscription Based Website Design & Maintenance | Webtech',
     description:
-      "L'agence PowerPoint de référence, avec +10000 présentations à son actif. Nous designons vos slides, vous marquez les esprits.",
+      "Don't Just Make a Website, Make a Fortune. Our affordable monthly website packages provide everything you need to launch and maintain a professional online presence.",
     type: 'website',
-    url: 'https://www.mprez.fr',
-    siteName: 'mprez',
+    url: 'https://Webtech.com',
+    siteName: 'Webtech',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Agence PowerPoint : +2500 clients satisfaits | mprez',
+    title: 'Subscription Based Website Design & Maintenance | Webtech',
     description:
-      "L'agence PowerPoint de référence, avec +10000 présentations à son actif.",
+      "Don't Just Make a Website, Make a Fortune. Affordable monthly website packages and support.",
   },
   alternates: {
-    canonical: 'https://www.mprez.fr',
+    canonical: 'https://Webtech.com',
     languages: {
-      fr: 'https://www.mprez.fr',
-      en: 'https://www.mprezagency.com',
+      en: 'https://Webtech.com',
     },
   },
 };
@@ -35,16 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <head>
-        <link rel="icon" href="/images/mprez_fav.png" />
-        <link rel="apple-touch-icon" href="/images/mprez_webclip.png" />
-        <meta
-          name="google-site-verification"
-          content="wn9kO2QdK-pP7_G_schV-h1CnilXj6uGDtXFcwFYlJY"
-        />
+        <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="antialiased bg-black text-white">{children}</body>
+      <body className="antialiased bg-[#061F21] text-white">{children}</body>
     </html>
   );
 }

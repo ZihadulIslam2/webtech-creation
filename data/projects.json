@@ -1,0 +1,42 @@
+[
+  {
+    "id": "city-online",
+    "title": "City Online Limited",
+    "subtitle": "Web Development, UX & UI Design",
+    "image": "/images/project_city_online.png",
+    "tags": ["Web Development", "UX & UI Design", "Futuristic Design"],
+    "isStylized": true,
+    "projectUrl": "#",
+    "themeColor": "#3b82f6"
+  },
+  {
+    "id": "jack-creative",
+    "title": "Jack Creative Studio",
+    "subtitle": "Web Development",
+    "image": "/images/project_jack_creative.png",
+    "tags": ["Web Development", "Minimalist UI"],
+    "isStylized": false,
+    "projectUrl": "#",
+    "themeColor": "#ec4899"
+  },
+  {
+    "id": "nexa-bank",
+    "title": "Nexa Fintech App",
+    "subtitle": "Mobile & Web App Development",
+    "image": "/images/project_city_online.png",
+    "tags": ["Mobile App", "React Native", "Fintech"],
+    "isStylized": true,
+    "projectUrl": "#",
+    "themeColor": "#10b981"
+  },
+  {
+    "id": "aura-studio",
+    "title": "Aura Cosmetics Shop",
+    "subtitle": "E-Commerce & Branding",
+    "image": "/images/project_jack_creative.png",
+    "tags": ["E-Commerce", "Shopify", "Branding"],
+    "isStylized": false,
+    "projectUrl": "#",
+    "themeColor": "#f59e0b"
+  }
+]

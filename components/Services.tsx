@@ -57,7 +57,7 @@ export default function Services() {
           />
         </svg>
       ),
-      href: '/contact',
+      href: '/services/ecommerce',
       cardClass:
         'bg-[linear-gradient(145deg,rgba(201,255,232,0.20),rgba(214,255,244,0.10),rgba(255,255,255,0.04))]',
       iconClass: 'text-emerald-300 bg-emerald-500/15 border-emerald-300/20',

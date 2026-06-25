@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { services } from '@/data/services';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,16 +14,12 @@ export default function Navbar() {
     { name: 'About', href: '/#about' },
     { 
       name: 'Services', 
-      href: '/#services',
-      subLinks: [
-        { name: 'eCommerce Solution', href: '/services/ecommerce' },
-        { name: 'WebWise Services', href: '/services/webwise' },
-        { name: 'WebKooker Maintenance', href: '/services/webkooker' }
-      ]
+      href: '#',
+      subLinks: services.map(s => ({ name: s.title, href: s.href, icon: s.icon, description: s.tagline }))
     },
     { name: 'Portfolios', href: '/#portfolios' },
     { name: 'Pricing', href: '/#pricing' },
-    { name: 'Blog', href: '/#blog' },
+    { name: 'Blog', href: '/blog' },
   ];
 
   return (
@@ -81,24 +78,34 @@ export default function Navbar() {
                       </svg>
                     </button>
                     
-                    {/* Dropdown Card */}
+                    {/* Dropdown Card Grid */}
                     <div
-                      className={`absolute left-0 mt-2 w-60 rounded-2xl border border-white/10 bg-[#061F21] backdrop-blur-lg shadow-2xl p-2 transition-all duration-200 ${
+                      className={`absolute left-0 mt-2 w-[600px] rounded-2xl border border-white/10 bg-[#061F21] backdrop-blur-lg shadow-2xl p-4 transition-all duration-200 ${
                         isDropdownOpen
                           ? 'opacity-100 translate-y-0 pointer-events-auto'
                           : 'opacity-0 translate-y-2 pointer-events-none'
                       }`}
                     >
-                      {link.subLinks.map((sub) => (
-                        <Link
-                          key={sub.name}
-                          href={sub.href}
-                          className="block px-4 py-2.5 text-xs sm:text-sm font-semibold text-gray-300 hover:text-emerald-400 hover:bg-white/5 rounded-xl transition-all"
-                          onClick={() => setIsDropdownOpen(false)}
-                        >
-                          {sub.name}
-                        </Link>
-                      ))}
+                      <div className="grid grid-cols-2 gap-2">
+                        {link.subLinks.map((sub) => (
+                          <Link
+                            key={sub.name}
+                            href={sub.href}
+                            className="flex items-start gap-3 p-3 rounded-xl text-gray-300 hover:text-emerald-400 hover:bg-white/5 transition-all group"
+                            onClick={() => setIsDropdownOpen(false)}
+                          >
+                            <span className="text-xl shrink-0 mt-0.5">{sub.icon}</span>
+                            <div>
+                              <span className="block text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                {sub.name}
+                              </span>
+                              <span className="block text-xs text-gray-400 mt-0.5 leading-snug">
+                                {sub.description}
+                              </span>
+                            </div>
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 );
@@ -179,11 +186,9 @@ export default function Navbar() {
                           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                         </svg>
                       </button>
-                      
-                      {/* Sub-menu accordion */}
                       <div
-                        className={`pl-4 flex flex-col space-y-2 border-l border-white/10 mt-1 transition-all duration-200 ${
-                          isMobileDropdownOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+                        className={`pl-4 flex flex-col space-y-2 mt-1 transition-all duration-200 ${
+                          isMobileDropdownOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
                         }`}
                       >
                         {link.subLinks.map((sub) => (
@@ -194,9 +199,13 @@ export default function Navbar() {
                               setIsOpen(false);
                               setIsMobileDropdownOpen(false);
                             }}
-                            className="text-gray-400 hover:text-emerald-400 py-1.5 text-sm transition-colors"
+                            className="flex items-start gap-3 p-3 rounded-xl text-gray-400 hover:text-emerald-400 hover:bg-white/5 transition-all"
                           >
-                            {sub.name}
+                            <span className="text-lg shrink-0">{sub.icon}</span>
+                            <div>
+                              <span className="text-sm font-bold text-white">{sub.name}</span>
+                              <span className="block text-xs text-gray-500 mt-0.5">{sub.description}</span>
+                            </div>
                           </Link>
                         ))}
                       </div>

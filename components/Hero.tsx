@@ -21,7 +21,7 @@ export default function Hero() {
           
           {/* Tagline */}
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-[#00df89] mt-6 tracking-wide uppercase animate-fadeIn">
-            {"Don't Just Make a Website, Make a Fortune"}
+            Helping Local Businesses Grow Through Better Websites &amp; Digital Solutions
           </h2>
 
           {/* Description */}

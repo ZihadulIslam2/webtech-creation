@@ -5,12 +5,12 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: 'Subscription Based Website Design & Maintenance | Webtech',
   description:
-    "Don't Just Make a Website, Make a Fortune. Our affordable monthly website packages provide everything you need to launch and maintain a professional online presence.",
+    "Subscription-based website design and maintenance helping local businesses grow online. Affordable monthly packages with everything you need.",
   keywords: 'subscription website design, website maintenance, Webtech, custom web design, business website, ecommerce website',
   openGraph: {
     title: 'Subscription Based Website Design & Maintenance | Webtech',
     description:
-      "Don't Just Make a Website, Make a Fortune. Our affordable monthly website packages provide everything you need to launch and maintain a professional online presence.",
+      "Subscription-based website design and maintenance helping local businesses grow online. Affordable monthly packages with everything you need.",
     type: 'website',
     url: 'https://Webtech.com',
     siteName: 'Webtech',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Subscription Based Website Design & Maintenance | Webtech',
     description:
-      "Don't Just Make a Website, Make a Fortune. Affordable monthly website packages and support.",
+      "Subscription-based website design and maintenance helping local businesses grow online.",
   },
   alternates: {
     canonical: 'https://Webtech.com',

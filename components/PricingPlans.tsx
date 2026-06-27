@@ -30,7 +30,7 @@ const pricingCards: PricingCard[] = [
     oldPrice: 199,
     newPrice: 99,
     features: [
-      'Up to 8–10 Pages',
+      'Designed to generate more enquiries &amp; customer bookings',
       'Theme Based Design',
       'Shared Hosting',
       'Website Maintenance',
@@ -51,7 +51,7 @@ const pricingCards: PricingCard[] = [
     oldPrice: 499,
     newPrice: 299,
     features: [
-      'Up to 20–25 Pages',
+      'Built to drive more leads, sales &amp; revenue growth',
       'UX/UI Designed',
       'Built with WordPress, Webflow and Wix',
       'Fast and Secure Web Hosting',

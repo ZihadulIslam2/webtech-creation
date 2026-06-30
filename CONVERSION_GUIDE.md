@@ -7,7 +7,7 @@ This document outlines the conversion of the static mprez.fr website from Webflo
 ## Project Structure
 
 ```
-Webtech-creations/
+crafix/
 ├── app/
 │   ├── globals.css          # Global styles with Tailwind
 │   ├── layout.tsx           # Root layout with SEO metadata
@@ -132,7 +132,7 @@ Webtech-creations/
 ### Install Dependencies
 
 ```bash
-cd Webtech-creations
+cd crafix
 npm install
 ```
 

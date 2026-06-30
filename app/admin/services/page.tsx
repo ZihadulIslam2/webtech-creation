@@ -12,7 +12,7 @@ export default function AdminServices() {
         <div className="max-w-6xl">
           <div className="mb-8">
             <h1 className="text-3xl font-black text-white">Services</h1>
-            <p className="text-gray-400 text-sm mt-1">View all services offered on Webtech</p>
+            <p className="text-gray-400 text-sm mt-1">View all services offered on Crafix</p>
           </div>
 
           <div className="grid grid-cols-1 gap-4">

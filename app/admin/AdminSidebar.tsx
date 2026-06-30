@@ -22,10 +22,10 @@ export default function AdminSidebar() {
         <Link href="/admin/dashboard" className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-400 to-emerald-400 p-[2px]">
             <div className="w-full h-full bg-[#0a2a2d] rounded-[6px] flex items-center justify-center font-black text-white text-sm">
-              W
+              C
             </div>
           </div>
-          <span className="text-white font-black text-lg tracking-tight">Webtech</span>
+          <span className="text-white font-black text-lg tracking-tight">Crafix</span>
           <span className="text-[10px] text-[#00df89] font-bold uppercase tracking-wider ml-auto">Admin</span>
         </Link>
       </div>

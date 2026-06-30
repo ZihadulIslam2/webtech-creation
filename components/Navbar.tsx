@@ -30,24 +30,17 @@ export default function Navbar() {
           <Link href="/#home" className="flex items-center gap-3 group">
             <div className="relative flex items-center justify-center">
               <svg className="w-9 h-9 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Left Wing of 'W' */}
-                <path d="M8 12L15 28L20 18" stroke="url(#grad1)" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-                {/* Right Wing of 'W' */}
-                <path d="M20 18L25 28L32 12" stroke="url(#grad2)" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M28 12C28 12 14 12 14 20C14 28 28 28 28 28" stroke="url(#cGrad)" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
                 <defs>
-                  <linearGradient id="grad1" x1="8" y1="12" x2="20" y2="28" gradientUnits="userSpaceOnUse">
+                  <linearGradient id="cGrad" x1="14" y1="12" x2="28" y2="28" gradientUnits="userSpaceOnUse">
                     <stop stopColor="#c084fc" />
-                    <stop offset="1" stopColor="#a855f7" />
-                  </linearGradient>
-                  <linearGradient id="grad2" x1="20" y1="18" x2="32" y2="28" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#a855f7" />
                     <stop offset="1" stopColor="#6366f1" />
                   </linearGradient>
                 </defs>
               </svg>
             </div>
             <span className="text-white font-black text-2xl tracking-tight group-hover:text-purple-300 transition-colors">
-              Webtech
+              Crafix
             </span>
           </Link>
 

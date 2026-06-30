@@ -248,7 +248,7 @@ export default function GoogleBusinessProfilePage() {
             </div>
             <div className="shrink-0 relative z-10">
               <Link
-                href="mailto:hello@Webtech.com?subject=Google Business Profile Optimisation Enquiry"
+                href="mailto:hello@crafix.tech?subject=Google Business Profile Optimisation Enquiry"
                 className="inline-flex items-center px-8 py-5 bg-[#052021] hover:bg-[#073233] text-white font-extrabold text-base sm:text-lg rounded-full transition-all hover:scale-105"
               >
                 Let&apos;s Talk

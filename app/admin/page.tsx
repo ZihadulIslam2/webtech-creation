@@ -39,10 +39,10 @@ export default function AdminLogin() {
           <Link href="/" className="inline-flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-400 to-emerald-400 p-[2px]">
               <div className="w-full h-full bg-[#061F21] rounded-[10px] flex items-center justify-center font-black text-white text-lg">
-                W
+                C
               </div>
             </div>
-            <span className="text-white font-black text-2xl tracking-tight">Webtech</span>
+            <span className="text-white font-black text-2xl tracking-tight">Crafix</span>
           </Link>
           <h1 className="text-3xl font-black text-white">Admin Login</h1>
           <p className="text-gray-400 text-sm mt-2">Sign in to manage your website</p>

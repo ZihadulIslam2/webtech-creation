@@ -1258,7 +1258,7 @@ export default function EcommerceServicePage() {
             {/* Right side CTA Button */}
             <div className="shrink-0 relative z-10 w-full lg:w-auto text-center">
               <Link
-                href="mailto:hello@Webtech.com?subject=eCommerce Project Discussion"
+                href="mailto:hello@crafix.tech?subject=eCommerce Project Discussion"
                 className="inline-flex w-full lg:w-auto justify-center items-center px-8 py-5 bg-[#052021] hover:bg-[#073233] text-white font-extrabold text-base sm:text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-[0_10px_30px_rgba(5,32,33,0.25)] group"
               >
                 <span>Let&apos;s Discuss Project</span>

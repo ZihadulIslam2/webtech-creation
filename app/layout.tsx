@@ -3,28 +3,28 @@ import './globals.css';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Subscription Based Website Design & Maintenance | Webtech',
+  title: 'Subscription Based Website Design & Maintenance | Crafix',
   description:
     "Subscription-based website design and maintenance helping local businesses grow online. Affordable monthly packages with everything you need.",
-  keywords: 'subscription website design, website maintenance, Webtech, custom web design, business website, ecommerce website',
+  keywords: 'subscription website design, website maintenance, Crafix, custom web design, business website, ecommerce website',
   openGraph: {
-    title: 'Subscription Based Website Design & Maintenance | Webtech',
+    title: 'Subscription Based Website Design & Maintenance | Crafix',
     description:
       "Subscription-based website design and maintenance helping local businesses grow online. Affordable monthly packages with everything you need.",
     type: 'website',
-    url: 'https://Webtech.com',
-    siteName: 'Webtech',
+    url: 'https://crafix.tech',
+    siteName: 'Crafix',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Subscription Based Website Design & Maintenance | Webtech',
+    title: 'Subscription Based Website Design & Maintenance | Crafix',
     description:
       "Subscription-based website design and maintenance helping local businesses grow online.",
   },
   alternates: {
-    canonical: 'https://Webtech.com',
+    canonical: 'https://crafix.tech',
     languages: {
-      en: 'https://Webtech.com',
+      en: 'https://crafix.tech',
     },
   },
 };

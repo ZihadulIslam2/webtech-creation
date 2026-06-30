@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12 md:mb-16">
           {/* Brand */}
           <div>
-            <h3 className="text-white font-black text-2xl mb-4">Webtech</h3>
+            <h3 className="text-white font-black text-2xl mb-4">Crafix</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Subscription based website design and maintenance packages providing everything you need to launch and scale.
             </p>
@@ -122,10 +122,10 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@Webtech.com"
+                  href="mailto:hello@crafix.tech"
                   className="text-gray-400 hover:text-[#00df89] transition-colors text-sm font-semibold"
                 >
-                  hello@Webtech.com
+                  hello@crafix.tech
                 </a>
               </li>
               <li>
@@ -145,7 +145,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm">
-            &copy; 2026 Webtech. All rights reserved.
+            &copy; 2026 Crafix. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
